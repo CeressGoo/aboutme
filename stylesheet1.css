@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(127, 255, 212, 0.3);
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 5%;
+    font-family: Arial, 等线, 黑体, 宋体, sans-serif;
+}
+
+h1 {
+    margin-left: -2%;
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    color: rgb(0, 81, 255)
+}
