@@ -7,12 +7,16 @@
     <body>
         <h1>Crown Ether Europium(II) Complexes</h1>
         <h3>Work Report 2021/05/15</h3>
-        <p>
-            <img src="../image/N1O4N4_route.png">
-        </p>
 
+        <div class="intro">
         <h2>Introduction</h2>
         <p>
+            Eu2、Sm2、Yb2(、Ce3)具有4f轨道全空、半满或全满的电子组态，第一激发态电子组态为4fn-15d1而非其他三价稀土离子的4fn。
+            5d轨道不像4f轨道一样受到外层电子屏蔽，更易受到配位场影响，
+            因此d-f跃迁的稀土离子表现出异于其他稀土离子的发光性质：通常存在多于一个的宽发射峰，因为5d能级分裂以及激发态4fn-15d1的展宽。
+            但这些离子易被氧气氧化，尤其是在溶液中，这制约了它们的应用。<br>
+            自冠醚和穴醚被发现后，人们发现二价稀土与大环配体配位后，（氧）稳定性有了很大提升。
+            这启发了我探究亚铕冠醚配合物的发光性质。<br>
             1998年，Jianzhuang Jiang报道了综述了一系列冠醚和穴醚类配体与Eu(II)配合物的发光性质，
             其中Eu(II)与15c5以及aza12c4形成的1:3与1:2配合物体现出较高的PLQY。
             该类冠醚亚铕配合物受热易失去一个或多个冠醚分子，热稳定性差，
@@ -31,15 +35,17 @@
             <li>二、合成Eu(II)配合物；</li>
             <li>三、测试PLQY。</li>
         </ul>
+        </div>
 
+        <div class="experiment">
         <h2>Experimental</h2>
         <h3>Synthesis of double-lariat ligand:</h3>
         <p>
             Synthesis route:<br />
             <img src="../image/multi_ligand_route.png" alt="Synthesis Route Overview" />
         </p>
-        <p>
-            <em>Synthesis of <a href="synth2.html">triethylene glycol ditosylate(2)</a></em>: 
+        <p class="synthdetail">
+            <em>Synthesis of triethylene glycol ditosylate(2)</em>: 
             To a 250 mL three-neck bottle, tryethylene glycol(9.389 g, 62.52 mmol, 1 eq.), 
             tosylchloride(24.329 g, 127 mmol, 2.04 eq.) and dichloromethane(65 mL) was added.
             The mixture was put into an ice bath and stirred until all solids were solved.
@@ -47,23 +53,50 @@
             After the addition was completed, the mixture was stirred for another 4 hours under room temperature.
             Then, 65 mL dichloromethane and 75 mL water was added into the bottle.
             The organic phase was seperated and washed by water(10 mL * 3), 
-            dried over Na2SO4 and removed under reduced pressure to afford 2 as a white crystalline solid(26.925 g, 58.718 mmol, 94%).
-            <br />
+            dried over Na2SO4 and removed under reduced pressure to afford 2 as a white crystalline solid(26.925 g, 58.718 mmol, 94%).<br />
+            <a target="_blank" href="../NMRspec/Ts2Occ3_1.png">1H NMR</a> (400 MHz, Chloroform-d) δ 7.79 (m, 4H), 7.34 (d, J = 8.0 Hz, 4H), 
+            4.14 (dd, J = 5.7, 3.9 Hz, 4H), 3.66 (m, 4H), 3.53 (s, 4H), 2.45 (s, 6H).<br>
         </p>
-        <p>
+        <p class="synthdetail">
             <em>Synthesis of aza-15-crown-5(4)</em>:
-            To be finished...
+            在1L三口瓶中，在Ar气氛下向400 mL经Na2SO4干燥的叔丁醇中加入金属钠(2.361 g, 102.7 mmol, 2.771 eq.)，
+            在Ar气氛和60℃下反应22 h，得到tBuONa溶液。向上述溶液中加入二乙醇胺3(4.250 g, 40.46 mmol, 1.09 eq.)，搅拌充分溶解。
+            将2(16.993 g, 37.058 mmol, 1 eq.)溶于150 mL超干1,4-二氧六环中，并在50℃下缓慢滴加到三口瓶中，耗时6 h。
+            滴加完成后在50℃下反应2 h，TLC检测反应原料完全转化后，将反应液降至室温。
+            过滤除去不溶固体，并用少量二氯甲烷冲洗滤渣，洗涤液合并入滤液中。
+            所得溶液旋蒸除去溶剂后，加入60 mL水，用正己烷(10 mL × 1)洗涤，并用二氯甲烷(20 mL × 8)萃取。
+            所得二氯甲烷溶液旋蒸除去溶剂，在250℃空气浴下减压蒸馏，产物沸点148℃，得到无色液体与白色固体。<br>
+            <a target="_blank" href="../NMRspec/N1O4_distilled.png">1H NMR</a> (400 MHz, Chloroform-d) δ 3.70 – 3.57 (m, 16H), 2.79 (t, 4H).<br>
         </p>
+        <p class="synthdetail">
+            <em>Synthesis of diamide 5(2)</em>:
+            在100 mL三口瓶中，加入4(1.525 g, 6.954 mmol, 2.01 eq.)、重蒸三乙胺(0.933 g, 9.22 mmol, 2.66 eq.)，
+            加入30 mL二氯甲烷溶解。称取丁二酰氯(0.536 g, 3.46 mmol, 1 eq.)溶于20 mL二氯甲烷，
+            在冰浴和Ar气氛下缓慢滴加至三口瓶中，得到棕黑色溶液。室温反应6 h。
+            反应结束后，反应液用水(20 mL × 5)和饱和食盐水(20 mL)洗涤。
+            所得粗产品溶液经柱层析纯化后得到咖啡色固体(0.863 g, 1.66 mmol, 48.0%)。<br>
+            <a target="_blank" href="../NMRspec/N1O4OB4.png">1H NMR</a> (400 MHz, Chloroform-d) δ 3.87 – 3.53 (m, 40H), 2.71 (s, 4H). <br>
+            <a target="_blank" href="../NMRspec/N1O4OB4_MS.png">ESI-MS</a>: 521.3(M + H+), 543.3(M + Na+), 559.3(M + K+).<br>
+        </p>
+        <p class="synthdetail">
+            <em>Synthesis of double-lariat ligand 6(2)</em>:
+            <br>under experiment.....<br>
+        </p>
+        </div>
 
+        <div class="result">
         <h2>Result and Discussion</h2>
         <p>
             To be finished....
         </p>
+        </div>
 
+        <div class="conclusion">
         <h2>Conclusion</h2>
         <p>
             To be finished....
         </p>
+        </div>
 
         <p><a href="../index.html">Back to Main Page...</a></p>
     </body>
