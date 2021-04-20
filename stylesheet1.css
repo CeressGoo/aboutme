@@ -9,11 +9,15 @@ body {
 
 h1 {
     margin-left: -2%;
-    border-bottom: 2px solid black;
+    padding: 20px;
+    background-color: blue;
+    color: white;
 }
 
 h2 {
-    color: rgb(0, 81, 255)
+    color: rgb(0, 81, 255);
+    border-bottom: thin, grey, dotted;
+    padding-bottom: 10px;
 }
 
 p.synthdetail {
