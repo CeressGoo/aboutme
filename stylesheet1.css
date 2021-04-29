@@ -16,8 +16,9 @@ h1 {
 
 h2 {
     color: rgb(0, 81, 255);
-    border-bottom: thin, grey, dotted;
-    padding-bottom: 10px;
+    border-bottom: 1px rgb(0, 81, 255) double;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 p.synthdetail {
