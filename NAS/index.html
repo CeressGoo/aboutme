@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>A916 NAS使用指南</title>
+        <link rel="stylesheet" href="../stylesheet1.css" type="text/css">
+    </head>
+
+    <body>
+        <h1>A916 NAS使用指南</h1>
+        <h2>前言：什么是NAS？</h2>
+        <p>
+            NAS(Network Attached Storage)指网络附属存储，用来在实验室成员之间提供文件存储和共享的功能。<br>
+            你可以将它理解为课题组私有的一个小型百度网盘：每个人拥有自己的账号，登录后可以上传、下载、修改自己的文件，还可以查看其他人共享的资料和文献。只要有互联网的地方，就可以访问NAS，它就像你电脑的另一个磁盘一样。<br>
+        </p>
+
+        <h2>零：注册账号</h2>
+        <p>
+            首先你需要想好你喜欢的账号id，找老师或者我(gjz)新建一个用户，然后就可以开始使用啦！<br>
+            可以在右上角头像-个人设置中修改自己的密码。
+        </p>
+
+        <h2>一：访问NAS</h2>
+        <p>
+            目前可以通过以下两个网址来访问实验室的NAS系统：<br>
+            1. <a href="http://fulabccme.quickconnect.cn/">http://fulabccme.quickconnect.cn/</a><br>
+            2. <a href="https:fulabccme.synology.me:61200">https:fulabccme.synology.me:61200</a><br>
+            如果你正在休息室，且连接了A916的wifi的话，还可以通过<a href="192.168.50.201:5000/">192.168.50.201:5000</a>来访问。<br><br>
+
+            请注意NAS厂家为我们提供的网络代理服务并不是很稳定，<b>如果一个网址打不开，可以点击另外的网址试试。</b><br><br>
+
+            连接上NAS后，会显示如下的登录界面：<br>
+            <img src="photo/login.png" alt="login" width="25%"><br><br>
+            输入账号密码即可登录，进入NAS的主界面：<br>
+            <img src="photo/mainframe.png" alt="mainframe" width="70%">
+        </p>
+
+        <h2>二：了解各个文件夹</h2>
+        <p>
+            登录后，左上角的"File Station"是资源管理器，使用方法和我们自己电脑上的文件管理器一样，可以用来查看NAS上的文件。<br>
+            <img src="photo/filestation.png" alt="filestation" width="70%"><br><br>
+            NAS的根目录下分成了两个文件夹：
+            <ol>
+                <li>public: 用来存放共享给所有人的文件；<b>所有人均可读写</b></li>
+                <li>users：用来存放大家的私人文件夹，每个人都会有一个自己的文件夹，里面可以放你想存储的任何东西；<b>创建者拥有读写权限，其他人只有下载权限不能删改</b></li>
+            </ol>
+            <img src="photo/publicfolder.png" alt="public folder" width="40%">
+            <img src="photo/privatefolder.png" alt="private folder" width="40%"><br><br>
+        </p>
+
+        <h2>三：上传/下载/查看文件</h2>
+        <p>
+            点击文件管理器左上角的上传按钮，可以从自己的电脑上传文件到NAS：<br>
+            <img src="photo/upload.png" alt="upload button" width="70%"><br><br>
+            这时右上角会有上传图标，点开可以看到文件的上传进度：<br>
+            <img src="photo/uploadlist.png" alt="upload list" width="70%"><br>
+            要下载想要的文件，只需右键-下载即可；<br>
+            剪切、复制、粘贴、新建文件夹等操作与自己电脑上的文件管理器相同，不再赘述。<br>
+            <b>请不要去public文件夹或其他人的文件夹里捣乱哦！</b>(虽然大家也没那个权限就是了hhhh)
+        </p>
+
+        <h2>四：共享文件</h2>
+        <p>
+            NAS可以当作百度网盘使用，可以生成二维码或者链接来分享你想发给其他人的文件：<br>
+            右键目标文件-共享，会弹出共享窗口，复制二维码或链接即可共享文件。<br>
+            <img src="photo/share.png" alt="share" width="70%">
+        </p>
+
+        <h2>五：在测试仪器电脑上使用NAS</h2>
+        <p>
+            如简介所述，<b>有网的地方就能用NAS</b>，只要测试仪器的电脑有网络连接，就可以通过浏览器登录你的NAS账号，然后把测试数据存储到云端，稍后可以在自己电脑上下载。<br>
+            北大校园网覆盖范围还是挺广的，基本上能涵盖整座化学楼；<br><br>
+            那如果有的电脑年代太久，没有网卡怎么办？（即没有wifi功能）<br>
+            我们准备了<b>USB无线网卡</b>，放在我座位柜子的右上角。win10及以上的系统可以即插即用，给连不了wifi的电脑提供网络连接。<br>
+            <img src="photo/netdrive.png" alt="usb driver" width="30%">
+        </p>
+
+        <p>
+            <br><br><br><br> 未完待续.......
+        </p>
+    </body>
+</html>
