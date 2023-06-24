@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>NAS访问指南-A916局域网版</title>
+        <link rel="stylesheet" href="../stylesheet1.css" type="text/css">
+    </head>
+
+    <body>
+        <h1>NAS使用指南 - A916局域网版 (2023.06.24更新)</h1>
+
+        <h2>一些备注</h2>
+        <p>
+            【2023.06.24】A918路由器的网络被我启用了无线桥接功能，连接至916路由器组网。<br>
+            此时918的TPLink路由器的网络名称改为A916，密码a916a916，与916 ASUS路由器保持一致。<br>
+            IP地址更改为192.168.50.141。<br>
+        </p>
+
+        <h2>一、连接方式</h2>
+        <p>
+            1. 连接A916 wifi时，可以使用局域网链接访问NAS，局域网网速理论上快一些：<br>
+            <a href="http://192.168.50.201:5000">http://192.168.50.201:5000</a><br><br>
+            2. 非A916wifi时，可以用下列链接：<br>
+            <a href="https://fulabccme.cn2.quickconnect.cn">https://fulabccme.cn2.quickconnect.cn</a><br>
+        </p>
+
+        <h2>二、在资源管理器中添加NAS文件夹</h2>
+        <p>
+            NAS自带SMB功能，可以把NAS中的文件夹添加到你的电脑的资源管理器里，就像访问你自己的硬盘一样访问网络内容，<b>前提是连接了A916的wifi</b>。<br>
+            下面是步骤：<br>
+
+            <h3>(1) 在资源管理器的空白处右键，选择“添加一个网络位置”</h3>
+            <img src="./photo/tutorial_new/add_folder_1.png" width="50%">
+
+            <h3>(2) 一路点击下一步，直到让你填入Internet地址：</h3>
+            <img src="./photo/tutorial_new/add_folder_3.png" width="45%">
+            <img src="./photo/tutorial_new/NAS_folder.png" width="35%">
+            <p>这里填入你想要保存到你电脑的文件夹。例如如果想保存NAS上的public这个文件夹，地址就是\\SynologyNAS\<b>public</b>\。<br>
+                你可以将任何一个你常用的文件夹保存到你电脑的资源管理器里，方便日后访问。<br>
+                同理，如果想保存任何一个文件夹，假设它在NAS里的地址是\users\ZhangSan\myFolder\，那么这一步就填入\\SynologyNAS\<b>users\ZhangSan\myFolder\</b>即可。</p>
+            
+            <h3>(3) 给想要保存的文件夹起一个简洁易懂的名字：</h3>
+            <img src="./photo/tutorial_new/add_folder_4.png" width="50%">
+            <p>你选中的文件夹将以这个名字出现在你的资源管理器中。</p>
+
+            <h3>(4) 点击确定，这样就可以在资源管理器中看到你的文件夹了：</h3>
+            <img src="./photo/tutorial_new/add_folder_5.png" width="35%">
+            <img src="./photo/tutorial_new/add_folder_6.png" width="55%">
+            <p>点开，发现和NAS上对应文件夹的内容是一样的。<br>
+            注意这并不代表将所有文件都下载到了你的电脑上，只是通过互联网在访问NAS上的文件而已，所以不会占用你电脑的存储空间。<br>
+            这样我们就给选中的文件夹创造了一个快速访问的入口，以后就可以直接在资源管理器里操作NAS上的文件了，无需打开浏览器。</p>
+
+        </p>
+        
+
+
+
+
+
+
+
+    </body>
+
+</html>
